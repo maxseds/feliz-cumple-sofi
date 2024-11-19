@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Sofía</title>
+    <link rel="stylesheet" href="feliz.css">
+</head>
+<body>
+    <div class="container">
+        <header class="banner">
+            <h1>📸 Galería de Momentos 📸</h1>
+            <p>Un vistazo a todos los recuerdos felices contigo, Sofía. 💖</p>
+        </header>
+        <main>
+            <div class="gallery">
+                <img src="sofitamalera1.jfif" alt="sofi tamaliaando" onclick="openModal(this)">
+                <img src="sofifamiliarcena2.jfif" alt="no me invitaron" onclick="openModal(this)">
+                <img src="sofihawllowin3.jfif" alt="god" onclick="openModal(this)">
+                <img src="sofiquin4.jfif" alt="ajjajaa" onclick="openModal(this)">
+                <img src="las flacas aaaa.jfif" alt="Foto 5" onclick="openModal(this)">
+                <img src="jajajjajaja.jfif" alt="Foto 6" onclick="openModal(this)">
+                <img src="ñofi.jfif" alt="Foto 7" onclick="openModal(this)">
+                <img src="joyo.jfif" alt="Foto 8" onclick="openModal(this)">
+            </div>
+        </main>
+
+        <!-- Modal -->
+        <div id="modal" class="modal" onclick="closeModal()">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+        </div>
+
+        <footer>
+            <a href="felisitaciones.html" class="gallery-link">🎉 Volver a la página principal 🎉</a>
+        </footer>
+    </div>
+
+    <script>
+        // Funciones para abrir y cerrar el modal
+        function openModal(image) {
+            const modal = document.getElementById("modal");
+            const modalImg = document.getElementById("modalImage");
+            modal.style
+        }
